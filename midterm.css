@@ -1,0 +1,181 @@
+
+.innerframe{
+    background-color: rgb(199, 184, 235);
+    width: 500px;
+    height: auto;
+    border: 50px;
+    border: 2px solid rgb(1, 171, 250);
+    border-radius: 5px; 
+    margin: 0%;
+}
+.outerframe{
+    background-color: #e5e5e5;
+    width: 500px;
+    height: 200px;
+    margin-left: 400px;
+    background-image: url('https://scontent.fbkk13-1.fna.fbcdn.net/v/t1.15752-9/310790706_409002164763536_3411496437157116796_n.png?_nc_cat=108&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeEwi7BDFUMcEbtsnfQ7V0TkTeiXTPa2titN6JdM9ra2K-Hq2keixWMsGbpniC1i2WugRdZfC2jEBF-ff3rQ78ap&_nc_ohc=EbP-H8OzElMAX9fWWuk&tn=YOb3mep-semdEfen&_nc_ht=scontent.fbkk13-1.fna&oh=03_AVK5D_UpJRQ6lBYe5MWZP_cVspj_H44SHngsc00zF3ko2A&oe=636AE3EF');
+    background-position: top;
+}
+.rightframe{
+    background-color: rgb(102, 225, 241);
+    width: 500px;
+    height:auto;
+    border: 50px;
+    margin-left: 1000px;
+    margin-top: -200px;
+    border: 2px solid rgb(250, 1, 1);
+    border-radius: 5px;
+}
+.framepressure{
+        width: 200px;
+        height: 200px;;
+        border: 50px;
+        margin-left: 1550px;
+        margin-top: -175px;
+        border-radius: 50%;
+        border: 5px solid rgb(250, 250, 250);;
+        background-image: url('https://ae01.alicdn.com/kf/H49dda497243741dd9da2618bfdaf422e3/-.jpg_Q90.jpg_.webp');
+        background-size: cover;
+}
+.frametemp{
+    width: 200px;
+    height: 200px;;
+    border: 50px;
+    margin-left: 1470px;
+    margin-top: -10px;
+    border-radius: 50%;
+    border: 5px solid rgb(250, 250, 250);;
+    background-image: url('https://img10.jd.co.th/n0/jfs/t31/223/2619466076/207401/c22cee76/5ee46d42Nec22dcc7.jpg!q70.jpg');
+    background-size: cover;
+}
+.framelevel{
+    width: 200px;
+    height: 200px;;
+    border: 50px;
+    margin-left: 1300px;
+    margin-top: -80px;
+    border-radius: 50%;
+    border: 5px solid rgb(250, 250, 250);;
+    background-image: url('https://5.imimg.com/data5/RA/UJ/MY-14561821/radar-level-transmitter-500x500.png');
+    background-size: cover;
+}
+.frameflow{
+    width: 200px;
+    height: 200px;;
+    border: 50px;
+    margin-left: 1100px;
+    margin-top: -150px;
+    border-radius: 50%;
+    border: 5px solid rgb(250, 250, 250);;
+    background-image: url('https://heinowinter.com/media/image/9d/55/5e/Vortex-DurchflusssensorTypVVX20-SikaMesstechnikundRegeltechnikOpera_2018-04-18_09-47-02_600x600.jpg');
+    background-size: cover;
+}
+.font{
+    font-size: 25px;
+    font-family: cursive; 
+}
+.font2{
+    font-size: 40px;
+    font-family: cursive; 
+    color: rgb(253, 4, 4);
+}
+.font3{
+    font-size: 40px;
+    font-family: cursive; 
+    color: rgb(253, 116, 4);
+}
+.font4{
+    font-size: 40px;
+    font-family: cursive; 
+    color: rgb(4, 91, 253);
+}
+.font5{
+    font-size: 20px;
+    font-family: 'Gill Sans';
+}
+.font6{
+    font-size: 40px;
+    font-family: cursive; 
+    color: rgb(174, 4, 253); 
+}
+.font7{
+    font-size: 40px;
+    font-family: cursive; 
+    color: rgb(249, 253, 4); 
+}
+.font8{
+    font-size: 40px;
+    font-family: cursive; 
+    color: rgb(4, 91, 253);
+}
+input{
+    width: 150px;
+    height: 30px;
+    padding: 0 5px;
+    transition: .5s;
+}
+input:focus{
+    width: 200px;
+    transition: .5s;
+    box-shadow:rgb(139, 139, 139) 2px 2px 15px;
+}
+button{
+    background-color: rgb(178, 198, 199);
+    border: none;
+    height: 30px;
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+    transition: .5s;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: rgb(151, 151, 155);
+    transition: .5s;
+}
+body{
+    background-image: url('https://img.freepik.com/free-photo/white-brush-stroke-texture-background_53876-132775.jpg?w=1380&t=st=1665568598~exp=1665569198~hmac=09122a1d68ad3a86e9871bdbbfae832015ab493134d308cf412bac092d4435b4');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial ;
+}
+.container{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.card{
+    width: 2000px;
+    height: 100px;
+    border:solid 1px #ccc;
+    border-radius: 5px;
+    display: flex;
+   overflow: hidden;
+   padding: 22px;
+}
+.card::after{
+    content:'';
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1200 800'%3E%3Cdefs%3E%3CradialGradient id='a' cx='0' cy='800' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23d6cfcd'/%3E%3Cstop offset='1' stop-color='%23d6cfcd' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='b' cx='1200' cy='800' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23a4fdcd'/%3E%3Cstop offset='1' stop-color='%23a4fdcd' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='c' cx='600' cy='0' r='600' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23c9ccff'/%3E%3Cstop offset='1' stop-color='%23c9ccff' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='d' cx='600' cy='800' r='600' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23B1FF9A'/%3E%3Cstop offset='1' stop-color='%23B1FF9A' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='e' cx='0' cy='0' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23FB9EFF'/%3E%3Cstop offset='1' stop-color='%23FB9EFF' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='f' cx='1200' cy='0' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%2397FAFF'/%3E%3Cstop offset='1' stop-color='%2397FAFF' stop-opacity='0'/%3E%3C/radialGradient%3E%3C/defs%3E%3Crect fill='url(%23a)' width='1200' height='800'/%3E%3Crect fill='url(%23b)' width='1200' height='800'/%3E%3Crect fill='url(%23c)' width='1200' height='800'/%3E%3Crect fill='url(%23d)' width='1200' height='800'/%3E%3Crect fill='url(%23e)' width='1200' height='800'/%3E%3Crect fill='url(%23f)' width='1200' height='800'/%3E%3C/svg%3E");
+    border-radius:45%;
+    z-index: 0;
+    top: -10%;
+    right: -6%;
+  transition: .5s;
+}
+.card:hover h1{
+    color: rgb(0, 26, 255);
+}
+.card:hover::after{
+    transform: scale(50);
+    transition: .5s;
+}

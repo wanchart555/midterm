@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Counter!</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <link rel="stylesheet" href="midterm.css">
+    </head>
+    <script src="midterm.js"> </script>
+    <body>
+            <div class="container">
+                <div class="card">
+                    <div class="content">
+                        <h1>Midterm Internet of Things</h1>
+                    </div>
+                </div>
+            </div>
+            <br></br>
+            
+            <div class="outerframe">  
+                <form  style="text-align: center;" class="innerframe">  
+                     <div class="font2">Get <p7 class="font3">the</p7> <p8 class="font4">data</p8></div>
+                     <div class="font5" style="margin-right: 70px;">Sensor-Type &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sensor-Id</div>
+                    <input autofocus id="sensorty" placeholder="Type" type="text" >
+                    <input id="sensorid" placeholder="ID'0-2'" type="text">
+                    <button type="submit" >Search</button>
+                    <div style="text-align: center;"><p1></p1></div>
+                    <div style="text-align: center;"><p2></p2></div>
+                    <div style="text-align: center;"><p3></p3></div>
+                    <div style="text-align: center;"><p4></p4></div>
+                    <div style="text-align: center;"><p5></p5></div>
+                    <div style="text-align: center;"><p6></p6></div>
+                </form>
+            </div> 
+       
+                <div class="rightframe">
+                    <form style="text-align: center;" >
+                    <div class="font6">Send <p7 class="font7">the</p7> <p8 class="font8">data</p8></div>
+                       <div class="font5">Student-ID</div>
+                       <div><input  id="st_id" placeholder="St_Id" type="text" ></div>
+                       <div class="font5">Student-Name</div>
+                       <div><input  id="st_name" placeholder="St_Name" type="text" ></div>
+                       <div class="font5">Sensor-Name</div>
+                       <div><input  id="sensor_name" placeholder="Sensor_Name" type="text" ></div>
+                       <div class="font5">Sensor-Type</div>
+                       <div><input  id="sensor_type" placeholder="Sensor_Type" type="text" ></div>
+                       <div class="font5">Sensor-Unit</div>
+                       <div><input  id="sensor_unit" placeholder="Sensor_Unit" type="text" ></div>
+                       <div class="font5">Sensor-Value</div>
+                       <div><input  id="sensor_value" placeholder="Sensor_Value" type="text" ></div>
+                       <button style="margin-top: 10px; margin-bottom: 10px;" id="clearBtn" type="submit">Search</button>  
+                    </form>
+                </div>
+                <div id="pressure" class="framepressure"></div>
+                <div id="temp" class="frametemp"></div>
+                <div id="level" class="framelevel"></div>
+                <div id="flow" class="frameflow"></div>
+                <div class="position-absolute top-50 start-0 translate-middle">
+                <svg width="88" height="88" style="overflow:visible">
+                    <circle cx="170" cy="400" r="400" fill="#FF0000"/>
+                        <g>
+                            <circle cx="140" cy="400" r="400" fill="#FF6600" transform="translate(10 10)"/>
+                            <circle cx="110" cy="400" r="400" fill="#FFFF00" transform="translate(20 40)"/>
+                            <circle cx="80" cy="400" r="400" fill="#33FF00" transform="translate(30 60)"/>
+                            <circle cx="50" cy="400" r="400" fill="#00FFFF" transform="translate(40 80)"/>
+                            <circle cx="20" cy="400" r="400" fill="#0000FF" transform="translate(50 100)"/>
+                            <circle cx="-10" cy="400" r="400" fill="#CC00FF" transform="translate(60 120)"/>
+                            <circle cx="-30" cy="400" r="400" fill="#FFFACD" transform="translate(60 140)"/>
+                        </g>
+                        <text font-size="270" fill="#11103E" transform="translate(-20 200)">
+                            <tspan x="35" y="280">🐶</tspan>
+                            <tspan class="font" x="1170" y="330">flow-transducer</tspan>
+                            <tspan class="font" x="1370" y="285">level-transducer</tspan>
+                            <tspan class="font" x="1600" y="160">temperature-transducer</tspan>
+                            <tspan class="font" x="1720" y="-30">pressure-transducer</tspan>
+                        </text>
+                </svg>      
+            </div>
+    </body>
+</html>
